@@ -1,0 +1,16 @@
+const max = 100;
+var n, sum;
+procedure calc;
+begin
+    sum := 0;
+    n := 1;
+    while n <= max do
+    begin
+        sum := sum + n;
+        n := n + 1
+    end;
+end;
+
+begin
+    call calc
+end. 
